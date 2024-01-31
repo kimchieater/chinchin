@@ -6,7 +6,7 @@ import {useState} from 'react';
 
 function App() {
 
-  let [number, setNumber] = useState(0);
+
   return (
     <div className="App">
       <section className="nav-bar">
