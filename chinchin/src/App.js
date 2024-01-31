@@ -10,15 +10,18 @@ function App() {
   return (
     <div className="App">
       <section className="nav-bar">
-        <div className='logo'>ChinChin</div>
-        <ul className="menu">
+        <div className='logo'>CHINCHIN</div>
+        <ul>
           <li>Specs</li>
           <li>Quiz</li>
         </ul>
       </section>
-    
-  
+
+      <section className="header">
+        
+      </section>
     </div>
+    
   );
 }
 

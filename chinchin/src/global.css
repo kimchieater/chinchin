@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
 
 :root{
   --main-color: #C7C8CC;
@@ -6,6 +6,7 @@
   --white-color: #F2EFE5;
   --pink-color:#f78da7;
   --sub-pink-color: #cf2e2e;
+  --black-color:black;
 }
 
 
@@ -13,7 +14,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  font-family: "Sixtyfour", sans-serif;
 }
 
 body{
