@@ -1,18 +1,23 @@
-import logo from './logo.svg';
+import './global.css';
 import './App.css';
+import {useState} from 'react';
+
+
 
 function App() {
+
+  let [number, setNumber] = useState(0);
   return (
     <div className="App">
       <section className="nav-bar">
         <div className='logo'>ChinChin</div>
-        <nav>
-        <ul>
+        <ul className="menu">
           <li>Specs</li>
           <li>Quiz</li>
         </ul>
-      </nav>
       </section>
+
+  
     </div>
   );
 }
